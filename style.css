@@ -17,7 +17,7 @@
     background-color: black;
     position: relative;
     left: 400px;
-    animation: block 1s linear infinite;
+    animation: block 2s linear infinite;
 }
 @keyframes block{
     0%{left: 400px}
@@ -26,4 +26,10 @@
 
 #hole{
     width: 50px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
 }
